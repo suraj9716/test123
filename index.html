@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #txt1{
+            width: 40%;
+            height: 60px;
+            margin: auto;
+        }
+
+        #btn{
+            width: 70px;
+            height: 70px;
+            background-color: black;
+            color: white;
+        }
+        #head{
+            width: 40%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        .divvs{
+            width: 60%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="head">MY SQL QUESTION DATABASE</h1>
+
+    <div class="divvs">
+        <input id="txt1" type="text">
+
+        <button id="btn" onclick="check()">fetch</button>
+    </div>
+   
+
+   <h2>Question Name : <span id="name"></span></h2>
+   <h2>Description : <span id="desc"></span></h2>
+   <h2>Query : <span  id="quer"></span></h2>
+ 
+    
+</body>
+<script src="index.js"></script>
+</html>

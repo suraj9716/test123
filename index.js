@@ -1184,7 +1184,7 @@ var arr = [
       },
       {
         "id": 215,
-        "questionName": "Unique Rowl",
+        "questionName": "Unique Row",
         "description": "find the number of row from orderdetails whose all columns have odd number",
         "query": "select count(productid) from orderdetails where orderdetailid%2=1 and orderid%2=1 and productid%2=1 and quantity%2=1 and supplierid%2=1;"
       }
@@ -1197,16 +1197,16 @@ var arr = [
 //   }
 
 function check(){
-    var str =  document.getElementById("txt1").value;
-    // console.log(str)
+  var str =  document.getElementById("txt1").value;
+  // console.log(str)
 
-    for(var i =0;i<arr.length;i++){
-        if(str==arr[i].questionName){
-        document.getElementById("name").innerHTML = arr[i].questionName;
-        document.getElementById("desc").innerHTML = arr[i].description
-        document.getElementById("quer").innerHTML = arr[i].query;
+  for(var i =0;i<arr.length;i++){
+      if(str==arr[i].questionName){
+      document.getElementById("name").innerHTML = arr[i].questionName;
+      document.getElementById("desc").innerHTML = arr[i].description
+      document.getElementById("quer").innerHTML = arr[i].query;
 
-        }
-        
-    }
+      }
+      
+  }
 }
